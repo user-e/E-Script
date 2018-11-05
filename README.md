@@ -5,8 +5,8 @@ A simple language that anyone can learn.
 
 - Download (from here): https://github.com/user-e/E-Script/archive/master-version.zip
 - JoshScript links:  
-  - [Installation guide](https://www.youtube.com/watch?v=VGpngPR3lUc)
-  - [Website download](http://www.joshl.io/downloads/joshscript.zip)
+  - Installation guide - https://www.youtube.com/watch?v=VGpngPR3lUc
+  - Website download - http://www.joshl.io/downloads/joshscript.zip
 
 A *huge* thanks to derns#5715 (https://github.com/upshaw) for completely rewriting the source code  
 which was published as version 1.2. He also released the language-josh package on the atom text editor!  
@@ -76,19 +76,34 @@ JOSHJOSHJOSHJoshJoshJoshJoshJOshJOSHJOshJOSHJOshJOSHJOshJOSHJOshJOSHJOshJOSHJOsh
 JOSHJoshJoshJoshJoshJoshJoshJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshJoshJOSHJOshJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOshJOshJOSHJOSHJOSHJOshjosHjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshJOshjosHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOshjoshjoshjoshjoshjoshjoshjoshjoshjoshjoshJoshJoshjoshJOshJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOshJOSHJOSHJOSHJOshjoshjoshjoshjoshjoshjoshJOshjoshjoshjoshjoshjoshjoshjoshjoshJOshjosHjosHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOsh
 ```
 `> Hello, World!`
+
 ## Instructions
-1. If _execute_script.bat_ has the text "D:\Documents\Dev\JoshScript\source\JoshScript.py",  
+1. If _execute_script.bat\*_ has the text "D:\Documents\Dev\JoshScript\source\JoshScript.py",  
 change it to "E-Script.py" (_original name "JoshScript.py",_ uses the relative file path  
 of your downloaded folder).
 
-2. Open a text editor, write a program using the codes  
-of E-Script / JoshScript (above) then click "Save As".
+2. If you would like to use an _execute_script.bat\*_ for (GNU/)Linux or one that  
+has "mac"/"linux" in its name and are going to run it from the command line,  
+you need to add executable rights (change mode bits) - using this command  
+in a _terminal_ (command line) app, opened in the folder that has the file:  
+```
+chmod +rx exec_script.linux.sh
+#or:# chmod +rx exec_script.mac.command
+```
 
-3. Change the file type to "All Files" and name your program anything  
-you would like that ends in _.jsh_, for example "program1.jsh".
+3. Open a text editor, write a program using the codes  
+(above) of E-Script / JoshScript then click "Save As".
 
-4. To run your program, open the text file with _execute_script.bat_.  
-(find it using your file manager's "choose another app" or "browse" option)
+4. Change the file type to "All Files", if the dialog window has that option, name your  
+program anything you like that ends in _.jsh_ (for example "program1.jsh") and save it.
+
+5. To run your program, open the file with _execute_script.bat\*_ - find it  
+using your file manager's "choose another app" or "browse" option.
+
+_\*_ the file _execute_script.bat_, for (Microsoft) Windows, or one  
+of the following to be used on other operating system(OS)s:  
+ \- _exec_script.linux.sh_, a bash shell script for (GNU/)Linux.  
+ \- _exec_script.mac.command_, a bash script for MacOS.
 
 Your E-Script or JoshScript code should now run successfully.  
 (Note: you need Python 3.6 installed for this to work)
