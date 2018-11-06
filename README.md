@@ -1,5 +1,7 @@
-# JoshScript
-A simple language that anyone can learn.
+# E-Script
+A simple language that anyone can learn.  
+ \- based on (a forked version of) the original idea, [JoshScript](https://github.com/JoshSCF/JoshScript),
+ in my [copy](https://github.com/user-e/E-Script/tree/original-JoshScript) of that branch.
 
 - Download (from here): https://github.com/user-e/E-Script/archive/master-version.zip
 - JoshScript links:  
@@ -7,53 +9,55 @@ A simple language that anyone can learn.
   - Download from here: https://github.com/JoshSCF/JoshScript/archive/master.zip
   - Website download: http://www.joshl.io/downloads/joshscript.zip
 
-A **huge** thanks to derns#5715 (https://github.com/upshaw) for completely rewriting the source code  
+A *huge* thanks to derns#5715 (https://github.com/upshaw) for completely rewriting the source code  
 which was published as version 1.2. He also released the language-josh package on the atom text editor!  
 This allows you to get your syntax highlighted when writing code in JoshScript.
 
-# What's new?
+## What's new?
 JoshScript 1.3 has been released and contains a new code which cubes the value.
 
 **Release history - new in older versions:**  
 JoshScript 1.2.2 release contained a few bug fixes and updated functions.  
 JoshScript 1.2 included a new ability to loop! Examples and usage will be coming soon.
 
-# Usage codes
-`JOSH` increases the value by 1
+## Operations (codes for usage)
+ \- uses 4 characters, each from a group of 2-8 ascii (basic  
+latin) characters, a bit like low-level computer programming.  
+`eoo1` / "JOSH" increases the value by 1
 
-`josh` decreases the value by 1
+`eo-1` / "josh" decreases the value by 1
 
-`Josh` multiplies the value by 2
+`eox2` / "Josh" multiplies the value by 2
 
-`josH` divides the value by 2, rounding down to the nearest integer
+`eod2` / "josH" divides the value by 2, rounding down to the nearest integer
 
-`JOsh` outputs the ascii symbol with Unicode number equal to current value
+`eopc` / "JOsh" outputs the ascii symbol with Unicode number equal to current value
 
-`JoSH` takes integers as input and sets the value to that
+`eooi` / "JoSH" takes integers as input and sets the value to that
 
-`JOsH` takes characters as input and sets the value to ascii number of char
+`eoic` / "JOsH" takes characters as input and sets the value to ascii number of char
 
-`jOsh` resets the value to 0
+`eooo` / "jOsh" resets the value to 0
 
-`JOSh` squares the value
+`eoxx` / "JOSh" squares the value
 
-`jOSh` cubes the value
+`exxx` / "jOSh" cubes the value
 
-`JosH` outputs the current value
+`eoop` / "JosH" outputs the current value (aka. print/echo)
 
-`joSH` moves one to the right on the tape reel of values
+`eoom` / "joSH" moves one to the right on the tape reel of values (aka. memory)
 
-`joSh` moves one to the left on the tape reel of values
+`eo-m` / "joSh" moves one to the left on the tape reel of values (aka. memory)
 
-`JoSh` starts loop if the value is not 0, else jump to matching end loop tag
+`eol1` / "JoSh" starts loop if the value is not 0, else jump to matching end loop tag
 
-`jOsH` ends a loop
+`eolo` / "jOsH" ends a loop
 
 `(` starts notation space
 
 `)` ends notation space
 
-# Examples
+## Examples
 ```
 JOSHJoshJoshJoshJoshJoshJoshJOSHJOsh
 ```
@@ -74,9 +78,10 @@ JOSHJoshJoshJoshJoshJoshJoshJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOSHJOshjoshjoshjoshjosh
 ```
 `> Hello, World!`
 
-# Instructions
+## Instructions
 1. If _execute_script.bat\*_ has the text "D:\Documents\Dev\JoshScript\source\JoshScript.py",  
-change it to "JoshScript.py" (uses the relative file path of your downloaded folder).
+change it to "E-Script.py" (_original name "JoshScript.py",_ uses the relative file path  
+of your downloaded folder).
 
 2. If you would like to use an _execute_script.bat\*_ for (GNU/)Linux or one that  
 has "mac"/"linux" in its name and are going to run it from the command line,  
@@ -87,7 +92,8 @@ chmod +rx exec_script.linux.sh
 #or:# chmod +rx exec_script.mac.command
 ```
 
-3. Open a text editor, write a program using JoshScript codes above, then click "Save As".
+3. Open a text editor, write a program using the codes  
+(above) of E-Script / JoshScript then click "Save As".
 
 4. Change the file type to "All Files", if the dialog window has that option, name your  
 program anything you like that ends in _.jsh_ (for example "program1.jsh") and save it.
@@ -100,7 +106,7 @@ of the following to be used on other operating system(OS)s:
  \- _exec_script.linux.sh_, a bash shell script for (GNU/)Linux.  
  \- _exec_script.mac.command_, a bash script for MacOS.
 
-Your JoshScript code should now run successfully.  
+Your E-Script or JoshScript code should now run successfully.  
 (Note: you need Python 3.6 installed for this to work)
 
 ## About this language
